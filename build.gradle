@@ -22,7 +22,7 @@ test {
 }
 
 javafx {
-    version = "11.0.2"
+    version = "14"
     modules = [ 'javafx.controls' ]
 }
 
@@ -35,4 +35,4 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.6.2")
 }
 
-mainClassName = 'Main'
+mainClassName = 'budgeting.Main'
