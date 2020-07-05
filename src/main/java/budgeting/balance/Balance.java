@@ -11,6 +11,7 @@ public final class Balance {
     public Balance(int credit, int debit, int cash){
         this.credit.set(credit);
         this.debit.set(debit);
+        
         this.cash.set(cash);
     }
 
